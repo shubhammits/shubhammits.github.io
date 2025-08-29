@@ -8,7 +8,7 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     // Tailwind config for custom colors & fonts
-    tailwind.config = {
+    tailwind.config = {     
       theme: {
         extend: {
           fontFamily: { sans: ["Inter", "system-ui", "-apple-system", "Segoe UI", "Roboto", "Ubuntu", "Cantarell", "Noto Sans", "sans-serif"] },
@@ -250,65 +250,65 @@
   
 
 
-<!-- Skills -->
-<section id="skills" class="py-16 sm:py-24 bg-zinc-100/60 dark:bg-zinc-900/40 font-sans" style="font-family: Avenir, sans-serif;">
+<!-- Skills Section v2 -->
+<section id="skills" class="py-20 bg-gradient-to-b from-gray-100 to-gray-200 dark:from-gray-900 dark:to-gray-800 font-sans">
   <div class="max-w-6xl mx-auto px-4 sm:px-6">
-    <h2 class="text-2xl sm:text-3xl font-bold mb-8 text-left text-gray-800 dark:text-gray-100" data-aos="fade-up">Skills</h2>
-    <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
-      
-      <!-- Card Template -->
-      <div class="skill-card" data-aos="fade-up">
-        <div class="content p-6 rounded-2xl bg-white/90 dark:bg-zinc-900/80 shadow-md">
-          <h3 class="font-semibold mb-3 text-gray-900 dark:text-gray-100">DevOps & Monitoring</h3>
-          <div class="flex flex-wrap gap-2 text-sm">
-            <span class="tag">Docker</span>
-            <span class="tag">Jenkins</span>
-            <span class="tag">Grafana</span>
-            <span class="tag">Prometheus</span>
-            <span class="tag">CI/CD</span>
+    <h2 class="text-4xl font-extrabold mb-16 text-left text-gray-900 dark:text-gray-100 tracking-tight" data-aos="fade-up">
+      Skills
+    </h2>
+    <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-10">
+
+      <!-- Skill Card Template -->
+      <div class="skill-card-3d" data-tilt data-tilt-max="25" data-aos="fade-up">
+        <div class="content-3d p-8 rounded-3xl bg-white/10 dark:bg-white/5 shadow-lg backdrop-blur-lg border border-white/20">
+          <h3 class="font-extrabold mb-6 text-gray-900 dark:text-gray-100 text-2xl tracking-wide">DevOps & Monitoring</h3>
+          <div class="flex flex-wrap gap-4">
+            <span class="tag-3d">Docker</span>
+            <span class="tag-3d">Jenkins</span>
+            <span class="tag-3d">Grafana</span>
+            <span class="tag-3d">Prometheus</span>
+            <span class="tag-3d">CI/CD</span>
           </div>
         </div>
       </div>
 
-      <div class="skill-card" data-aos="fade-up" data-aos-delay="100">
-        <div class="content p-6 rounded-2xl bg-white/90 dark:bg-zinc-900/80 shadow-md">
-          <h3 class="font-semibold mb-3 text-gray-900 dark:text-gray-100">Backend & Data</h3>
-          <div class="flex flex-wrap gap-2 text-sm">
-            <span class="tag">Python</span>
-            <span class="tag">Flask</span>
-            <span class="tag">FastAPI</span>
-            <span class="tag">MySQL</span>
-            <span class="tag">Pandas</span>
-            <span class="tag">Power BI</span>
+      <div class="skill-card-3d" data-tilt data-tilt-max="25" data-aos="fade-up" data-aos-delay="100">
+        <div class="content-3d p-8 rounded-3xl bg-white/10 dark:bg-white/5 shadow-lg backdrop-blur-lg border border-white/20">
+          <h3 class="font-extrabold mb-6 text-gray-900 dark:text-gray-100 text-2xl tracking-wide">Backend & Data</h3>
+          <div class="flex flex-wrap gap-4">
+            <span class="tag-3d">Python</span>
+            <span class="tag-3d">Flask</span>
+            <span class="tag-3d">FastAPI</span>
+            <span class="tag-3d">MySQL</span>
+            <span class="tag-3d">Pandas</span>
+            <span class="tag-3d">Power BI</span>
           </div>
         </div>
       </div>
 
-      <div class="skill-card" data-aos="fade-up" data-aos-delay="200">
-        <div class="content p-6 rounded-2xl bg-white/90 dark:bg-zinc-900/80 shadow-md">
-          <h3 class="font-semibold mb-3 text-gray-900 dark:text-gray-100">Data Analytics</h3>
-          <div class="flex flex-wrap gap-2 text-sm">
-            <span class="tag">SQL</span>
-            <span class="tag">Power BI</span>
-            <span class="tag">Excel</span>
-            <span class="tag">ETL</span>
-            <span class="tag">Data Cleaning</span>
-            <span class="tag">Visualization</span>
-            
-            
+      <div class="skill-card-3d" data-tilt data-tilt-max="25" data-aos="fade-up" data-aos-delay="200">
+        <div class="content-3d p-8 rounded-3xl bg-white/10 dark:bg-white/5 shadow-lg backdrop-blur-lg border border-white/20">
+          <h3 class="font-extrabold mb-6 text-gray-900 dark:text-gray-100 text-2xl tracking-wide">Data Analytics</h3>
+          <div class="flex flex-wrap gap-4">
+            <span class="tag-3d">SQL</span>
+            <span class="tag-3d">Power BI</span>
+            <span class="tag-3d">Excel</span>
+            <span class="tag-3d">ETL</span>
+            <span class="tag-3d">Data Cleaning</span>
+            <span class="tag-3d">Visualization</span>
           </div>
         </div>
       </div>
 
-      <div class="skill-card" data-aos="fade-up" data-aos-delay="300">
-        <div class="content p-6 rounded-2xl bg-white/90 dark:bg-zinc-900/80 shadow-md">
-          <h3 class="font-semibold mb-3 text-gray-900 dark:text-gray-100">IAM & Support</h3>
-          <div class="flex flex-wrap gap-2 text-sm">
-            <span class="tag">Saviynt</span>
-            <span class="tag">Sailpoint</span>
-            <span class="tag">iManage</span>
-            <span class="tag">ServiceNow</span>
-            <span class="tag">KT/KA Docs</span>
+      <div class="skill-card-3d" data-tilt data-tilt-max="25" data-aos="fade-up" data-aos-delay="300">
+        <div class="content-3d p-8 rounded-3xl bg-white/10 dark:bg-white/5 shadow-lg backdrop-blur-lg border border-white/20">
+          <h3 class="font-extrabold mb-6 text-gray-900 dark:text-gray-100 text-2xl tracking-wide">IAM & Support</h3>
+          <div class="flex flex-wrap gap-4">
+            <span class="tag-3d">Saviynt</span>
+            <span class="tag-3d">Sailpoint</span>
+            <span class="tag-3d">iManage</span>
+            <span class="tag-3d">ServiceNow</span>
+            <span class="tag-3d">KT/KA Docs</span>
           </div>
         </div>
       </div>
@@ -317,56 +317,52 @@
   </div>
 </section>
 
-<!-- CSS for Soft Glow -->
 <style>
-.skill-card {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
+
+/* 3D Floating Card */
+.skill-card-3d {
+  perspective: 1500px;
+  transition: transform 0.3s ease;
+}
+.content-3d {
   position: relative;
-  border-radius: 1rem;
-  overflow: hidden;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: linear-gradient(135deg, rgba(56,189,248,0.2), rgba(129,140,248,0.2));
+  border-radius: 2rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-position 5s linear;
+  background-size: 200% 200%;
+  animation: gradientMove 10s ease infinite;
 }
-.skill-card::before {
-  content: "";
-  position: absolute;
-  top: -50%;
-  left: -50%;
-  width: 200%;
-  height: 200%;
-  background: conic-gradient(from 0deg, #a5b4fc, #c7d2fe, #a5b4fc);
-  animation: rotateGlow 8s linear infinite;
-  filter: blur(30px);
-  opacity: 0.4;
-}
-.skill-card .content {
-  position: relative;
-  z-index: 1;
-  border-radius: 1rem;
-  backdrop-filter: blur(8px);
-}
-.skill-card:hover {
-  transform: translateY(-6px) scale(1.02);
-  box-shadow: 0 6px 20px rgba(165, 180, 252, 0.3), 0 10px 40px rgba(199, 210, 254, 0.2);
-}
-@keyframes rotateGlow {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
+.skill-card-3d:hover .content-3d {
+  transform: rotateX(5deg) rotateY(5deg) scale(1.05);
+  box-shadow: 0 20px 40px rgba(56,189,248,0.3), 0 30px 60px rgba(129,140,248,0.2);
 }
 
-/* tags styling */
-.tag {
-  padding: 0.4rem 0.8rem;
-  border-radius: 999px;
-  font-size: 0.75rem;
-  background: linear-gradient(90deg, #a5b4fc 0%, #c7d2fe 100%);
-  color: #1e293b;
-  font-weight: 500;
-  box-shadow: 0 0 6px rgba(165, 180, 252, 0.3);
-  transition: transform 0.2s ease;
+/* Animated Gradient */
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
 }
-.tag:hover {
-  transform: scale(1.05);
+
+/* Tag Neon Effect */
+.tag-3d {
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 0.85rem;
+  color: #fff;
+  background: linear-gradient(135deg, #22d3ee, #818cf8);
+  box-shadow: 0 0 8px #22d3ee, 0 0 16px #818cf8;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.tag-3d:hover {
+  transform: scale(1.15) rotate(-5deg);
+  box-shadow: 0 0 16px #22d3ee, 0 0 32px #818cf8;
 }
 </style>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.2/vanilla-tilt.min.js"></script>
 
 
 
